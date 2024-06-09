@@ -18,8 +18,8 @@ fetch(apiReq)
 
 function calculateCost() {
     if (ammo.value < 1 || ammo.value > 200) return;
-    const xbreakpoints = [1, 10, 25, 50, 100, 200];
-    const ybreakpoints = [4700, 4200, 4100, 4000, 3800, 3750];
+    const xbreakpoints = [1, 10, 25, 50, 100, 200, 201];
+    const ybreakpoints = [4700, 4200, 4100, 4000, 3800, 3750, 3750];
 
     if (xbreakpoints.includes(ammo.value)) {
         var price = ybreakpoints[xbreakpoints.findIndex((x) => x == ammo.value)];
