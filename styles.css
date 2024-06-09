@@ -1,0 +1,111 @@
+body {
+    background-color: #111;
+    margin: 0px;
+}
+
+div.header {
+    background-color: #d7661a;
+    font-style: italic;
+    padding: 32px;
+    font-size: x-large;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 700;
+}
+
+div.maindiv{
+    background-color: #444;
+    color: white;
+}
+
+div.content{
+    font-family: "Lato", sans-serif;
+    padding: 16px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+img.target { 
+    height: 120px;
+    position: absolute;
+    transform: rotate(75deg);
+    z-index: 0;
+    margin-top: -32px;
+}
+
+h1{
+    padding-left: 36px;
+    z-index: 1;
+    position: relative;
+}
+
+div.container {
+    max-width: 1024px;
+    padding: 0px;
+    margin:auto;
+}
+
+span.copy {
+    flex-basis: 35%;
+    padding: 8px ;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+div.eyecatch {
+    flex-basis: 55%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 60%;
+    min-width: 450px;
+    padding: 8px;
+    aspect-ratio: 2;
+}
+img.eyecatch{
+    width: 100%;
+}
+
+div.calc {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    width: 100%
+}
+
+div.calc-left {
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+input.calc-left {
+    width: 8ex;
+}
+
+div.calc-right {
+    flex-basis: 40%;
+    flex-grow: 1;
+    text-align: right;
+}
+div.disc {
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+}
+a.disc {
+    color: #ccc;
+}
+
+div.phone {
+    width: 100%;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+
+div.wide {
+    width: 100%;
+}
+
+span.dollars {
+    color:darkseagreen;
+    font-size:large;
+}
